@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Block08</string>
+    <string name="click_here_to_enter">Click here to enter</string>
+    <string name="welcome_to_second_activity">Welcome to second activity</string>
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearParent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="15">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/holo_purple"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/tiny_math_app"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@android:color/background_light"
+
+            android:textSize="80px" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/relative1"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="85"
+        android:background="@drawable/maths">
+
+        <Button
+            android:id="@+id/button_about"
+            android:layout_width="267dp"
+            android:layout_height="57dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="153dp"
+            android:layout_marginEnd="133dp"
+            android:layout_marginLeft="153dp"
+            android:layout_marginRight="133dp"
+            android:layout_marginStart="153dp"
+            android:background="?attr/colorControlHighlight"
+            android:onClick="clickAbout"
+            android:text="@string/about"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <Button
+            android:id="@+id/button_select"
+            android:layout_width="267dp"
+            android:layout_height="57dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="115dp"
+            android:layout_marginLeft="139dp"
+            android:layout_marginRight="115dp"
+            android:layout_marginStart="139dp"
+            android:layout_marginTop="127dp"
+            android:background="?attr/colorControlHighlight"
+            android:onClick="clickSelect"
+            android:text="@string/select_the_figure"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

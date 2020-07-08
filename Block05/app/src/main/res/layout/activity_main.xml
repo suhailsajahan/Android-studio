@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RadioGroup
+        android:id="@+id/radio"
+        android:layout_width="393dp"
+        android:layout_height="836dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="72dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginLeft="76dp"
+        android:layout_marginRight="84dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="63dp">
+
+        <RadioButton
+            android:id="@+id/radioButton_blue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/blue" />
+
+        <RadioButton
+            android:id="@+id/radioButton_magenta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/magenta" />
+
+        <RadioButton
+            android:id="@+id/radioButton_yellow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/yellow" />
+    </RadioGroup>
+</RelativeLayout>

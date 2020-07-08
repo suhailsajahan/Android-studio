@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">FinalProject</string>
+    <string name="tiny_math_app">Tiny Math App</string>
+    <string name="about">About</string>
+    <string name="select_the_figure">Select the figure</string>
+    <string name="triangle">Triangle</string>
+    <string name="select_a_figure">Select a figure</string>
+    <string name="circle">Circle</string>
+    <string name="rectangular">Rectangular</string>
+    <string name="square">Square</string>
+    <string name="back">Back</string>
+    <string name="h">h =</string>
+    <string name="b">b =</string>
+    <string name="area_of_the_triangle_is">Area of the triangle is</string>
+    <string name="value_of_h">Value of h</string>
+    <string name="value_of_b">Value of b</string>
+    <string name="a">a =</string>
+    <string name="value_of_a">Value of a</string>
+    <string name="click_here_to_find_the_answer">Click here to find the answer</string>
+    <string name="perimeter_of_the_shape_is">Perimeter of the shape is</string>
+    <string name="area_of_the_shape_is">Area of the shape is</string>
+    <string name="reactangular_or_square">Reactangular or Square</string>
+</resources>

@@ -1,0 +1,28 @@
+	Block 01
+******************
+2 buttons 
+1 will disappear when we click it
+next one will give a pop up message
+
+
+	Block 02
+******************
+Develop the Block 2: Clickable List in 2 Languages
+
+
+Block 3: How to Code Layouts
+
+Block 4: Playing Sounds (and Using a Switch to loop back)
+
+Block 5: Saving Preferences (and Radio Buttons) - The One Where You Use the ADB (Android Debug Bridge)
+Here the app remember the last update
+
+Block 6: Images (and SeekBar)
+
+Block 7: Web Pages (The One With the Permissions) - link to web pages, allow permissions
+
+Block 8: Two Activities (The One Where You Discover Explicit Intents) - attach another page(new page/class)
+
+Block 9: SMS (The One With Implicit Intents)
+
+Activity Life Cycle and Log (The One Where You Learn How to Send Commands to the Emulator from out side)

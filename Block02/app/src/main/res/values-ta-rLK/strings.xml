@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Block02</string>
+    <string name="dog">Naai</string>
+    <string name="cat">Poonai</string>
+    <string name="horse">Kuzirai</string>
+    <string name="lion">Singam</string>
+    <string name="toastMessage">Neengal therivu seizazu</string>
+</resources>
